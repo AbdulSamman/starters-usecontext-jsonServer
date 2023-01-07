@@ -1,0 +1,46 @@
+{
+  "flashcards": [
+    {
+      "id": 1,
+      "category": "git",
+      "front": "show simplified log \"hash - title - author\"",
+      "back": "git log --pretty=format:\"%h - %s - %an\""
+    },
+    {
+      "id": 2,
+      "category": "linux",
+      "front": "find all files in systemItems which have the text \"ver\" in them",
+      "back": "find systemItems -iname \"*ver*\""
+    },
+    {
+      "id": 3,
+      "category": "emmet",
+      "front": "how to produce filler text in a paragraph element",
+      "back": "p>lorem"
+    },
+    {
+      "id": 4,
+      "category": "git",
+      "front": "discard changes in working directory (before add)",
+      "back": "git checkout -- [file]"
+    },
+    {
+      "id": 5,
+      "category": "git",
+      "front": "remove file from working directory and add deletion to staging area",
+      "back": "git rm [file]"
+    },
+    {
+      "id": 6,
+      "category": "git",
+      "front": "how to find out the url to your GitHub repository",
+      "back": "git remote show origin"
+    },
+    {
+      "id": 7,
+      "category": "linux",
+      "front": "find all JavaScript files that have the word \"array\" in them",
+      "back": " find . -iname \"*array*\""
+    }
+  ]
+}
